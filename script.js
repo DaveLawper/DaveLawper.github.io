@@ -10,6 +10,5 @@ function transfert(){
     //link.click();
     // URL.revokeObjectURL(link.href);
     data=JSON.parse(json);
-    document.getElementById('data').innerHTML=data.Etat+" "+data.Satelite
     window.location.href = "server.php?data=" + json;
 };
